@@ -1,0 +1,130 @@
+.header  {
+  color: yellow;
+  background-image: url("barca.jpg");
+  text-align: center;
+  padding: 20px;
+}
+.header a  {
+  color: black;
+  font-size: 22px;
+  text-decoration: none;
+  margin:0 10px 0 0px;
+
+}
+.header a:hover {
+  color: white;
+  transition: 2s all;
+}
+
+
+ /* The navbar container */
+ 
+
+.navbar {
+  padding-top: 20px;
+  background-color:red;
+  height: 50px;
+}
+#fpic {
+  width: 300px; 
+  height: 230px;
+}
+#accnum {
+color: rgba(63, 165, 42, 0.945)
+}
+#accpwd {
+  color: rgb(63, 104, 79)
+  }
+#cal {
+  color: rgba(63, 165, 42, 0.945)
+  }
+#search {
+  width: 250px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+
+/* Navbar links */
+.middle a {
+  background-color: blue;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  .side, .middle {
+	width: 100%;
+  }
+}
+/* Links - change color on hover */
+.navbar a:hover {
+  background-color: rgb(253, 4, 58);
+  color: black;
+}
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+}
+#span{
+  font-weight: bold ;
+  font-size: 20px;
+}
+#div2{
+  height:300px ;
+}
+.column.middle{
+  color: white;
+  background-image: url("barca.jpg");
+  background-repeat: repeat-x;
+  
+  text-align: center;
+    width: 100%;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+	width: 100%;
+  }
+}
+.footer {
+  background-color: blue;
+  
+  text-align: center;
+  padding: 10px;
+}
+
+
+ .side {
+   float: left;
+  width: 20%;
+
+}
+
+.middle {
+  float: left;
+  width: 70%;
+
+}
+
+.end {
+  float: right;
+  width: 20%;
+
+}
